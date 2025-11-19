@@ -1,0 +1,136 @@
+/*
+ * style.css
+ * Basic styles for the Dashboard HTML structure
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+
+    /* --- Background Image Configuration --- */
+    background-image: url('/javascript/9.EventListener/download.jpeg'); /* Using your provided image path */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-color: #333; /* Fallback */
+    /* ------------------------------------ */
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.85); /* Added transparency */
+    padding: 20px;
+    border-bottom: 3px solid #007bff;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #333;
+    margin: 0;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* --- Navigation Styles --- */
+
+.item ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.item a:hover {
+    background-color: #e9ecef;
+}
+
+/* --- Small Logo Image Styles (in the header) --- */
+
+header img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid #007bff;
+}
+
+/* --- Form Styles --- */
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95); /* Added transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 25px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* --- Button Styles --- */
+
+button[type="Submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button[type="Submit"]:hover {
+    background-color: #218838;
+}
+
+button[type="Submit"]:active {
+    transform: translateY(1px);
+}
