@@ -2,20 +2,7 @@
 
 Welcome to my **Frontend Learning Journey**!  
 This repository documents my path from the basics of HTML, CSS, and JavaScript to building interactive React applications.  
-Here, I combine **notes, example projects, and mini-demos** to track my growth and showcase my skills to recruiters.
-
----
-
-## 🚀 Learning Roadmap
-
-| Topic       | Status | Folder |
-|------------|--------|--------|
-| HTML       | ✅ Learning started | [html](html/) |
-| CSS        | ⚠️ In progress | [css](css/) |
-| JavaScript | ⏳ Learning basics | [javascript](javascript/) |
-| React      | ⚠️ Not started | [react](react/) |
-
-> Check individual folders for detailed notes, examples, and projects.
+Here, I combine **notes, example projects, and mini-demos** to track my growth and showcase my skills.
 
 ---
 
