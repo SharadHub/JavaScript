@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            font-weight: normal;
+        }
+        body{
+            background: black;
+            color: white;
+
+        }
+        .box{
+            max-width: 600px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid purple;
+        }
+        .special{
+            color: teal;
+            font-style: italic;
+        }
+        strong{
+            color: rgba(173,23,23,0.863)
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <section class="one box">
+            <h1 class="first">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat eligendi a delectus, quas illo illum maiores ipsam dolore error autem vitae aliquid, recusandae neque. Laborum cupiditate rerum perspiciatis facilis, ab ex quo omnis, illo tempore velit vitae quasi aliquam deleniti. Eius neque molestias dolor ducimus?
+            </h1>
+        </section>
+        <section class="two box">
+            <h1 class="second">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente laudantium quam molestias deserunt, asperiores dolorem at distinctio, fugiat numquam et neque deleniti. Rerum voluptatem dolores similique sapiente? Corporis, quam corrupti?
+            </h1>
+        </section>
+        <section class="three box">
+            <h1 class="third">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aut sint impedit quidem velit, sequi fuga <span class="special">voluptatum</span>, nesciunt nam ex perferendis <strong>explicabo dignissimos vel!</strong> Ipsum nesciunt officia quos dolorum maiores.
+            </h1>
+        </section>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
